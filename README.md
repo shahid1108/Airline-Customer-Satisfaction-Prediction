@@ -4,22 +4,20 @@
 This machine learning project predicts airline customer satisfaction based on various factors like flight experience, service quality, and passenger feedback. Using Python and key ML libraries, the model classifies customers as **Satisfied** or **Dissatisfied**, helping airlines improve their services.  
 
 ## Dataset
-- Source: Kaggle or any airline customer satisfaction dataset
-- Features:
-        Passenger details (e.g., Age, Gender, Customer type, Class, Flight Distance)
-        Flight experience (e.g., Seat comfort, On-board service, In-flight entertainment, Checking Service)
-        Flight details (e.g., Departure delay, Arrival delay)
-- Target Variable: Satisfaction
+1. **Source**: Kaggle or any airline customer satisfaction dataset
+2. **Features**: - Passenger details (e.g., Age, Gender, Customer type, Class, Flight Distance) - Flight experience (e.g., Seat comfort, On-board service, In-flight entertainment, Checking Service)
+       - Flight details (e.g., Departure delay, Arrival delay)
+3. **Target Variable**: Satisfaction
 
 ## Approach & Methodology
-1. Data Preprocessing:
+1. **Data Preprocessing**:
   - Handling missing values
   - Encoding categorical variables
   - Feature scaling
-2. Exploratory Data Analysis (EDA):
+2. **Exploratory Data Analysis (EDA)**:
 - Data visualization
 - Correlation analysis
-3. Model Building:
+3. **Model Building**:
 - Train-test split
 - Trying different ML models
 
@@ -51,15 +49,15 @@ This machine learning project predicts airline customer satisfaction based on va
 
 
 ## Project Outcomes
-1. Accurate Prediction of Customer Satisfaction
+1. **Accurate Prediction of Customer Satisfaction**
        – The best-performing model achieved an accuracy of 96.12%, effectively distinguishing satisfied and dissatisfied customers.
 
-2. Key Factors Influencing Satisfaction Identified
+2. **Key Factors Influencing Satisfaction Identified**
        – Features like flight delay, seat comfort, in-flight entertainment, and customer service had the highest impact on satisfaction.
 
-3. Improved Data Insights Through EDA
+3. **Improved Data Insights Through EDA**
        – Visualizations revealed trends in customer preferences, common dissatisfaction reasons, and correlations between flight experience and ratings.
 
-4. Comparison of Machine Learning Models
+4. **Comparison of Machine Learning Models**
        – Evaluated multiple algorithms, such as Logistic Regression, Random Forest,DIcision Tree and SVM, to determine the most effective model.
 
